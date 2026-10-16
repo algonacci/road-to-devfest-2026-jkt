@@ -1,0 +1,17 @@
+[project]
+name = "road-to-devfest-2026-jkt"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Eric Julianto", email = "86970816+algonacci@users.noreply.github.com" }
+]
+requires-python = ">=3.14"
+dependencies = []
+
+[project.scripts]
+road-to-devfest-2026-jkt = "road_to_devfest_2026_jkt:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
